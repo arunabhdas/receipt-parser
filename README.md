@@ -23,6 +23,19 @@ To convert all images from the `data/img/` folder to text using tesseract and pa
 make run
 ```
 
+### Install on macOS
+
+```
+brew install imagemagick
+brew install tesseract
+```
+
+### Running 
+
+```
+python parser/importer.py
+```
+
 ### Docker
 
 A Dockerfile is available with all dependencies needed to run the program.  
